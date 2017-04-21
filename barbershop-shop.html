@@ -45,24 +45,24 @@
                         <a href="#">Магазин</a>
                     </li>
                     <li>
-                        <a href="#">Средства для ухода</a>
+                        <span>Средства для ухода</span>
                     </li>
                 </ul>
             </nav>
         </main>
         <div class="content">
-            <form action="" method="post">
+            <form action="" method="get">
                 <div class="content-brand">
-                    <p><b>Производители:</b></p>
-                    <input type="checkbox" name="brand1" value="b1" checked>Baxter of California</p>
-                    <input type="checkbox" name="brand2" value="b2">Mr Natty</p>
-                    <input type="checkbox" name="brand3" value="b3" checked>Suavecito</p>
-                    <input type="checkbox" name="brand4" value="b4">Malin+goetz</p>
-                    <input type="checkbox" name="brand5" value="b5">Murray's</p>
-                    <input type="checkbox" name="brand6" value="b6" checked>American crew</p>
+                    <b><label for="brand">Производители:</label></b>
+                    <p><input type="checkbox" name="brand1" value="b1" checked>Baxter of California</p>
+                    <p><input type="checkbox" name="brand2" value="b2">Mr Natty</p>
+                    <p><input type="checkbox" name="brand3" value="b3" checked>Suavecito</p>
+                    <p><input type="checkbox" name="brand4" value="b4">Malin+goetz</p>
+                    <p><input type="checkbox" name="brand5" value="b5">Murray's</p>
+                    <p><input type="checkbox" name="brand6" value="b6" checked>American crew</p>
                 </div>
                 <div class="content-product">
-                    <b>Группы товаров:</b>
+                    <b><label for="product">Группы товаров:</label></b>
                     <p><input name="product" type="radio" value="p1">Бритвенные принадлежности</p>
                     <p><input name="product" type="radio" value="p2" checked>Средства для ухода</p>
                     <p><input name="product" type="radio" value="p3">Аксессуары</p>
@@ -72,8 +72,7 @@
         </div>
         <section class="items">
             <article class="item">
-                <a href=""><img src="img/photo-1.jpg" width="150" height="150" alt="Набор для путешествий"></a>
-                <div class="name"><a href="">Набор для путешествий &laquo;Baxter of california&raquo;</a></div>
+                <div><img src="img/photo-1.jpg" width="150" height="150" alt="Набор для путешествий"><a href="" class="name">Набор для путешествий &laquo;Baxter of california&raquo;</a></div>
                 <div class="price">
                     <span class="price-new">2 900 руб.</span>
                     <form action="" method="post">
@@ -82,8 +81,7 @@
                 </div>
             </article>
             <article class="item">
-                <a href=""><img src="img/photo-2.jpg" width="150" height="150" alt="Увлажняющий кондиционер"></a>
-                <div class="name"><a href="">Увлажняющий кондиционер &laquo;Baxter of california&raquo;</a></div>
+                <div><img src="img/photo-2.jpg" width="150" height="150" alt="Увлажняющий кондиционер"><a href="" class="name">Увлажняющий кондиционер &laquo;Baxter of california&raquo;</a></div>
                 <div class="price">
                     <span class="price-new">750 руб.</span>
                     <form action="" method="post">
@@ -92,8 +90,7 @@
                 </div>
             </article>
             <article class="item">
-                <a href=""><img src="img/photo-3.jpg" width="150" height="150" alt="Гель для волос"></a>
-                <div class="name"><a href="">Гель для волос &laquo;Baxter of california&raquo;</a></div>
+                <div><img src="img/photo-3.jpg" width="150" height="150" alt="Гель для волос"><a href="">Гель для волос &laquo;Baxter of california&raquo;</a></div>
                 <div class="price">
                     <span class="price-new">290 руб.</span>
                     <form action="" method="post">
@@ -102,8 +99,8 @@
                 </div>
             </article>
             <article class="item">
-                <a href=""><img src="img/photo-4.jpg" width="150" height="150" alt="Глина для укладки волос"></a>
-                <div class="name"><a href="">Глина для укладки волос &laquo;American crew&raquo;</a></div>
+                <div><img src="img/photo-4.jpg" width="150" height="150" alt="Глина для укладки волос">
+                <a href="">Глина для укладки волос &laquo;American crew&raquo;</a></div>
                 <div class="price">
                     <span class="price-new">500 руб.</span>
                     <form action="" method="post">
@@ -112,8 +109,8 @@
                 </div>
             </article>
             <article class="item">
-                <a href=""><img src="img/photo-5.jpg" width="150" height="150" alt="Гель для волос"></a>
-                <div class="name"><a href="">Гель для волос&laquo;American crew&raquo;</a></div>
+                <div><img src="img/photo-5.jpg" width="150" height="150" alt="Гель для волос">
+                <a href="">Гель для волос&laquo;American crew&raquo;</a></div>
                 <div class="price">
                     <span class="price-new">300 руб.</span>
                     <form action="" method="post">
@@ -122,8 +119,8 @@
                 </div>
             </article>
             <article class="item">
-                <a href=""><img src="img/photo-6.jpg" width="150" height="150" alt="Набор для бритья"></a>
-                <div class="name"><a href="">Набор для бритья &laquo;Baxter of california&raquo;</a></div>
+                <div><img src="img/photo-6.jpg" width="150" height="150" alt="Набор для бритья">
+                <a href="">Набор для бритья &laquo;Baxter of california&raquo;</a></div>
                 <div class="price">
                     <span class="price-new">3 900 руб.</span>
                     <form action="" method="post">
@@ -134,7 +131,7 @@
         </section>
         <div class="links">
             <a href="">1</a> 
-            <span>2</span>
+            <a>2</a> 
             <a href="">3</a> 
             <a href="">4</a>
         </div> 
